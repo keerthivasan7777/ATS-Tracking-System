@@ -1,0 +1,13 @@
+prefix=D:/ATS_Project/venv/Library
+exec_prefix=D:/ATS_Project/venv/Library
+libdir=D:/ATS_Project/venv/Library/lib
+sharedlibdir=D:/ATS_Project/venv/Library/lib
+includedir=D:/ATS_Project/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
